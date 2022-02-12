@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-	<title>Template Hợp đồng</title>
-	<meta name="description" content="Swap coin V2">
-	<meta name="author" content="">
+    <title>Template Hợp đồng</title>
+    <meta name="description" content="Swap coin V2">
+    <meta name="author" content="">
 
-	<meta property="og:title" content="Swap coin V2">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="">
-	<meta property="og:description" content="Swap coin V2">
-	<meta property="og:image" content="">
+    <meta property="og:title" content="Swap coin V2">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Swap coin V2">
+    <meta property="og:image" content="">
 
-	<link rel="icon" href="/assets/images/favicon.png">
-	<link rel="apple-touch-icon" href="/assets/images/favicon.png">
+    <link rel="icon" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
 
-	<style>
+    <style>
         :root {
             --primary-color: #bbbbbb;
             --secondary-color: #D42600;
@@ -26,125 +26,723 @@
             --gray-color: #676262;
             --transition: .3s all ease-in-out;
         }
-	</style>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-		  rel="stylesheet">
-	<link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/plugins/select2/css/select2.min.css">
-	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="./assets/css/style.css">
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 <header class="header" id="header">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-3">
-				<div class="header-logo">
-					<a href="index.html">
-						<img src="./assets/images/logo.png" alt="">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-9">
-				<div class="header-bar">
-					<div class="header-navigation">
-						<ul class="list-unstyled mb-0">
-							<li>
-								<a href="">Trang chủ</a>
-							</li>
-							<li>
-								<a href="">Tin tức</a>
-								<ul class="list-unstyled mb-0">
-									<li>
-										<a href="">
-											Tin tức nổi bật
-										</a>
-									</li>
-									<li>
-										<a href="">
-											Tin tức khuyến mãi
-										</a>
-									</li>
-									<li>
-										<a href="">
-											Tin tức 3
-										</a>
-									</li>
-									<li>
-										<a href="">
-											Tin tức 4
-										</a>
-									</li>
-									<li>
-										<a href="">
-											Tin tức 5
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="">Dịch vụ</a>
-							</li>
-							<li>
-								<a href="">Về chúng tôi</a>
-							</li>
-							<li>
-								<a href="">Liên hệ</a>
-							</li>
-						</ul>
-					</div>
-					<div class="header-link">
-						<a href="#section-form">
-							Tạo ngay <i class="fas fa-edit"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="header-bar">
+                    <div class="header-navigation">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức</a>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="">
+                                            Tin tức nổi bật
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Tin tức khuyến mãi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Tin tức 3
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Tin tức 4
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Tin tức 5
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Dịch vụ</a>
+                            </li>
+                            <li>
+                                <a href="">Về chúng tôi</a>
+                            </li>
+                            <li>
+                                <a href="">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-link">
+                        <a href="#section-form">
+                            Tạo ngay <i class="fas fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 
 <div class="main">
-	<div class="section-hero">
-		<div class="decor decor-one">
-			<img src="./assets/images/decor/plus-one.png" alt="">
-		</div>
-		<div class="decor decor-two">
-			<img src="./assets/images/decor/plus-two.png" alt="">
-		</div>
-		<div class="decor decor-three"></div>
-		<div class="decor decor-four"></div>
-		<div class="decor decor-five"></div>
-		<div class="decor decor-six"></div>
-		<img src="./assets/images/decor/decor-building.png" class="decor decor-building">
-		<img src="./assets/images/decor/decor-left.svg" class="decor decor-left">
-		<img src="./assets/images/decor/decor-right.png" class="decor decor-right">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-8">
-					<div class="heading">
-						Tạo hợp đồng ngay
-					</div>
-					<div class="desc">
-						Tạo hợp đồng chưa bao giờ dễ dàng, nhanh gọn và chính xác nhất nếu bạn chưa thử tạo hợp đồng tại website của chúng tôi!
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="section-hero">
+        <div class="decor decor-one">
+            <img src="./assets/images/decor/plus-one.png" alt="">
+        </div>
+        <div class="decor decor-two">
+            <img src="./assets/images/decor/plus-two.png" alt="">
+        </div>
+        <div class="decor decor-three"></div>
+        <div class="decor decor-four"></div>
+        <div class="decor decor-five"></div>
+        <div class="decor decor-six"></div>
+        <img src="./assets/images/decor/decor-building.png" class="decor decor-building">
+        <img src="./assets/images/decor/decor-left.svg" class="decor decor-left">
+        <img src="./assets/images/decor/decor-right.png" class="decor decor-right">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="heading">
+                        Tạo hợp đồng ngay
+                    </div>
+                    <div class="desc">
+                        Tạo hợp đồng chưa bao giờ dễ dàng, nhanh gọn và chính xác nhất nếu bạn chưa thử tạo hợp đồng tại
+                        website của chúng tôi!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-form" id="section-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <div class="section-heading_title">
+                            Điền nội dung vào form
+                        </div>
+                        <div class="section-heading_desc">
+                            Điền đầy đủ nội dung vào form để tiến hành tạo hợp đồng
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-inner">
+                                    <label for="tenhd" class="form-inner_label">
+                                        Tên hợp đồng
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="text" placeholder="Tên hợp đồng" required class="form-inner_input"
+                                               id="tenhd">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-inner">
+                                    <label for="giatrihd" class="form-inner_label">
+                                        Giá trị
+                                    </label>
+                                    <div class="form-inner_group form-inner_group__icon">
+                                        <input type="text" placeholder="Giá trị hợp đồng" required
+                                               class="form-inner_input" id="giatrihd">
+                                        <span class="form-inner_icon">
+                                            VNĐ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <div class="form-inner_heading">
+                                    Bên A (Bên chuyển tiền)
+                                </div>
+                                <div class="form-inner">
+                                    <label for="emailbena" class="form-inner_label">
+                                        Email Bên A
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="email" placeholder="Email bên A" required class="form-inner_input"
+                                               id="emailbena">
+                                    </div>
+                                </div>
+                                <div class="form-inner">
+                                    <label for="sdtbena" class="form-inner_label">
+                                        SDT Bên A
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="tel" placeholder="SDT bên A" required class="form-inner_input"
+                                               id="sdtbena">
+                                    </div>
+                                </div>
+                                <div class="form-inner">
+                                    <label for="tenbena" class="form-inner_label">
+                                        Tên Bên A
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="text" placeholder="Tên bên A" required class="form-inner_input"
+                                               id="tenbena">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <div class="form-inner_heading">
+                                    Bên B (Bên nhận tiền)
+                                </div>
+                                <div class="form-inner">
+                                    <label for="emailbenb" class="form-inner_label">
+                                        Email Bên B
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="email" placeholder="Email bên B" required class="form-inner_input"
+                                               id="emailbenb">
+                                    </div>
+                                </div>
+                                <div class="form-inner">
+                                    <label for="sdtbenb" class="form-inner_label">
+                                        SDT Bên B
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="tel" placeholder="SDT bên B" required class="form-inner_input"
+                                               id="sdtbenb">
+                                    </div>
+                                </div>
+                                <div class="form-inner">
+                                    <label for="tenbenb" class="form-inner_label">
+                                        Tên Bên B
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="text" placeholder="Tên bên B" required class="form-inner_input"
+                                               id="tenbenb">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <div class="form-inner">
+                                    <label for="thoihanhd" class="form-inner_label">
+                                        Thời hạn hợp đồng
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <input type="text" placeholder="Thời hạn" required class="form-inner_input"
+                                               id="thoihanhd">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-inner">
+                                    <label for="noidunghd" class="form-inner_label">
+                                        Nội dung hợp đồng
+                                    </label>
+                                    <div class="form-inner_group">
+                                        <textarea name="" id="noidunghd" placeholder="Nội dung hợp đồng"
+                                                  class="form-inner_input"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-inner_desc">
+                                    Note: Chi phí trung gian bên Nhận tiền VNĐ (bên B) sẽ chịu, hệ thống sẽ tự động
+                                    trích chi phí khi hoàn tất hợp đồng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-12">
+                                <div class="button-group">
+                                    <button type="submit" class="btn-submit">
+                                        Hoàn tất
+                                    </button>
+                                    <button type="reset" class="btn-reset">
+                                        Làm lại
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <div class="section-heading_title">
+                            Danh sách các hợp đồng gần đây
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="table-filter">
+                        <form action="">
+                            <div class="filter-inner">
+                                <div class="filter-inner_item">
+                                    <label for="">Ngày tạo</label>
+                                    <input type="date" placeholder="Chọn ngày" class="form-control">
+                                </div>
+                                <div class="filter-inner_item">
+                                    <label for="">Loại hợp đồng</label>
+                                    <select name="" class="form-control" id="">
+                                        <option value="">--- Loại hợp đồng ---</option>
+                                        <option value="">Loại hợp đồng mua bán</option>
+                                        <option value="">Loại hợp đồng chuyển đổi</option>
+                                        <option value="">Loại hợp đồng trung gian</option>
+                                    </select>
+                                </div>
+                                <div class="filter-inner_item">
+                                    <label for="">Trạng thái</label>
+                                    <select name="" class="form-control" id="">
+                                        <option value="">--- Lọc theo trạng thái ---</option>
+                                        <option value="">Thành công</option>
+                                        <option value="">Thất bại</option>
+                                        <option value="">Đang chờ</option>
+                                    </select>
+                                </div>
+                                <div class="filter-inner_item">
+                                    <label for="">Tìm kiếm</label>
+                                    <input type="text" class="form-control" placeholder="Nội dung tìm kiếm...">
+                                </div>
+                                <div class="filter-inner_item filter-button">
+                                    <button>Tra cứu <i class="fal fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-template">
+                            <tr>
+                                <th>
+                                    Ngày tạo
+                                </th>
+                                <th>
+                                    Tên hợp đồng
+                                </th>
+                                <th>
+                                    Giá trị
+                                </th>
+                                <th>
+                                    Bên A
+                                </th>
+                                <th>
+                                    Bên B
+                                </th>
+                                <th class="text-center">
+                                    Trạng thái
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Ngày 12-02-2022
+                                </td>
+                                <td>
+                                    Hợp đồng buôn bán coin
+                                </td>
+                                <td>
+                                    <b>129.000.000 vnđ</b>
+                                </td>
+                                <td>
+                                    <b>Lò Văn Tèo</b>
+                                </td>
+                                <td>
+                                    <b>Lò Thị Hồng</b>
+                                </td>
+                                <td class="text-center">
+                                    <div class="badge badge-success">
+                                        Thành công
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Ngày 12-02-2022
+                                </td>
+                                <td>
+                                    Hợp đồng buôn bán coin
+                                </td>
+                                <td>
+                                    <b>129.000.000 vnđ</b>
+                                </td>
+                                <td>
+                                    <b>Lò Văn Tèo</b>
+                                </td>
+                                <td>
+                                    <b>Lò Thị Hồng</b>
+                                </td>
+                                <td class="text-center">
+                                    <div class="badge badge-warning">
+                                        Đang chờ
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Ngày 12-02-2022
+                                </td>
+                                <td>
+                                    Hợp đồng buôn bán coin
+                                </td>
+                                <td>
+                                    <b>129.000.000 vnđ</b>
+                                </td>
+                                <td>
+                                    <b>Lò Văn Tèo</b>
+                                </td>
+                                <td>
+                                    <b>Lò Thị Hồng</b>
+                                </td>
+                                <td class="text-center">
+                                    <div class="badge badge-danger">
+                                        Thất bại
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <div class="section-heading_title">
+                            Danh sách đối tác - nhà tài trợ
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="partner-slide">
+                        <div id="partner-slide" class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-1.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-2.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-4.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-5.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-6.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-7.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-1.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-2.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-4.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-5.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-6.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="partner-item">
+                                        <a href="">
+                                            <img src="./assets/images/partner/200x200-7.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<footer class="footer">
+<footer>
+    <div class="footer-top bg-light border-top py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="index.html" class="d-inline-block">
+                        <img class="w-100" src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-center flex-wrap list-tags">
+                        <a href="#" class="d-inline-block">Hợp đồng</a>
+                        <a href="#" class="d-inline-block">Trao đổi coin</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền</a>
+                        <a href="#" class="d-inline-block">Nhận tiền</a>
+                        <a href="#" class="d-inline-block">USD</a>
+                        <a href="#" class="d-inline-block">Vietnamdong</a>
+                        <a href="#" class="d-inline-block">Yên nhật</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền quốc tế</a>
+                        <a href="#" class="d-inline-block">nencer.vn</a>
+                        <a href="#" class="d-inline-block">Hợp đồng</a>
+                        <a href="#" class="d-inline-block">Trao đổi coin</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền</a>
+                        <a href="#" class="d-inline-block">Nhận tiền</a>
+                        <a href="#" class="d-inline-block">USD</a>
+                        <a href="#" class="d-inline-block">Vietnamdong</a>
+                        <a href="#" class="d-inline-block">Yên nhật</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền quốc tế</a>
+                        <a href="#" class="d-inline-block">nencer.vn</a>
+                        <a href="#" class="d-inline-block">Hợp đồng</a>
+                        <a href="#" class="d-inline-block">Trao đổi coin</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền</a>
+                        <a href="#" class="d-inline-block">Nhận tiền</a>
+                        <a href="#" class="d-inline-block">USD</a>
+                        <a href="#" class="d-inline-block">Vietnamdong</a>
+                        <a href="#" class="d-inline-block">Yên nhật</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền quốc tế</a>
+                        <a href="#" class="d-inline-block">nencer.vn</a>
+                        <a href="#" class="d-inline-block">Hợp đồng</a>
+                        <a href="#" class="d-inline-block">Trao đổi coin</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền</a>
+                        <a href="#" class="d-inline-block">Nhận tiền</a>
+                        <a href="#" class="d-inline-block">USD</a>
+                        <a href="#" class="d-inline-block">Vietnamdong</a>
+                        <a href="#" class="d-inline-block">Yên nhật</a>
+                        <a href="#" class="d-inline-block">Chuyển tiền quốc tế</a>
+                        <a href="#" class="d-inline-block">nencer.vn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-small mt-3">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0 text-center text-md-left">
+                        <div class="footer-inner">
+                            <div class="footer-title mb-2 font-weight-bold text-black">
+                                Hỗ trợ khách hàng
+                            </div>
+                            <div class="footer-list">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-envelope"></i>
+                                            example@gamil.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-phone-alt"></i>
+                                            0909.090.909
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0 text-center text-md-left">
+                        <div class="footer-inner">
+                            <div class="footer-title mb-2 font-weight-bold text-black">
+                                Hỗ trợ
+                            </div>
+                            <div class="footer-list">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">
+                                            Câu hỏi thường gặp
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Điều khoản sử dựng
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Quy định chính sách
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Hướng dẫn thanh toán
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0 text-center text-md-left">
+                        <div class="footer-inner">
+                            <div class="footer-title mb-2 font-weight-bold text-black">
+                                Giới thiệu
+                            </div>
+                            <div class="footer-list">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">
+                                            Hợp đồng là gì
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Hợp đồng là gì
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Hợp đồng là gì
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom bg-white py-2 border-top position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-muted">
+                    <p class="mb-1">Bản quyền năm 2021 nencer. Design by <b class="text-dark">Nencer</b>.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-dropdown d-flex align-items-center justify-content-lg-end">
+                        <div class="dropdown dropdown-wrap">
+                            <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownCurrency"
+                                    data-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span class="px-2">Tiền tệ</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownCurrency" style="">
+                                <a class="dropdown-item" href="#">Dollars</a>
+                                <a class="dropdown-item" href="#">Nhân dân tệ</a>
+                                <a class="dropdown-item active" href="#">Vietnam đồng</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropdown-wrap ml-3">
+                            <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownLanguage"
+                                    data-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-globe"></i>
+                                <span class="px-2">Tiếng Việt (vi)</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguage" style="">
+                                <a class="dropdown-item " href="#">English</a>
+                                <a class="dropdown-item active " href="#">Tiếng
+                                    Việt
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-
 <script type=" text/javascript" src="./assets/plugins/jquery.min.js"></script>
 <script type="text/javascript"
-		src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+        src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script type="text/javascript"
-		src="./assets/plugins/select2/js/select2.min.js"></script>
+        src="./assets/plugins/select2/js/select2.min.js"></script>
+<script type="text/javascript"
+        src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="./assets/js/app.js"></script>
 </body>
 </html>
