@@ -382,7 +382,7 @@ body {
 }
 
 .form-inner .form-inner_label {
-    font-size: 1.05em;
+    font-size: 0.95em;
     color: var(--gray-color);
     margin-bottom: 6px;
     font-weight: 600;
@@ -396,12 +396,12 @@ body {
 
 .form-inner .form-inner_group .form-inner_input {
     width: 100%;
-    height: 44px;
-    border-radius: 4px;
+    height: 34px;
+    border-radius: 0;
     padding: 10px 15px;
     border: 1px solid #d2d2d2;
     color: var(--dark-color);
-    font-size: 1.05em;
+    font-size: 1em;
 }
 
 .form-inner .form-inner_group textarea.form-inner_input {
@@ -448,7 +448,7 @@ body {
 
 .form-inner_heading {
     color: var(--dark-color);
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
     margin-bottom: 12px;
 }
@@ -586,7 +586,7 @@ body {
     padding: 10px;
 }
 
-.partner-item > a{
+.partner-item > a {
     position: relative;
     display: block;
     border-radius: 10px;
@@ -604,46 +604,86 @@ body {
     max-width: 100%;
 }
 
-/* Footer */
-footer .list-tags a {
-    font-size: .9em;
-    line-height: 2;
-    margin: 0 5px;
-    color: var(--gray-color);
-    transition: .3s all ease;
+.footer {
+    background-color: var(--white);
+    padding: 20px 0 0;
+    border-top: 1px solid #e9e9e9;
 }
 
-footer .list-tags a:hover {
-    color: var(--secondary-color);
+.footer .footer-item_logo {
+    margin-bottom: 15px;
 }
 
-footer .footer-small {
-    max-width: 768px;
-    margin: 0 auto;
+.footer .footer-item_logo img {
+    height: 30px;
+    width: auto;
+    max-width: 100%;
 }
 
-footer .footer-inner .footer-title {
-    color: #000;
+.footer .footer-item_text {
+    color: #4a4a4a;
+    padding-right: 15px;
 }
 
-footer .footer-inner .footer-list ul li a {
-    display: block;
-    color: var(--gray-color);
-    font-weight: 400;
-    font-size: 1em;
-    transition: .3s all ease;
+.footer .footer-item_title {
+    font-size: 1.2em;
+    color: #222;
+    padding-bottom: 2px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
-footer .footer-inner .footer-list ul li a:hover {
-    color: var(--secondary-color);
-}
-
-footer .footer-inner .footer-list ul li + li {
-    margin-top: 10px;
-}
-
-footer .footer-bottom .footer-dropdown .btn-dropdown {
+.footer .footer-item_list ul li a {
+    display: inline-block;
+    margin-bottom: 6px;
     font-size: 1.1em;
+    color: #222;
+}
+
+.footer .footer-item_list ul li a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.footer .footer-item_info p {
+    margin-bottom: 6px;
+}
+
+.footer .footer-item_info p a {
+    margin-right: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #d8d8d8;
+    font-size: 1.1em;
+    color: #222;
+    background: #fff;
+}
+
+.footer .footer-item_info p a:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #eeeeee;
+    border-top: 1px solid #d8d8d8;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    padding: 10px 0;
+}
+
+.footer-bottom .footer-bottom_copyright {
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.footer-bottom .footer-dropdown .btn-dropdown {
+    font-size: 1em;
     font-weight: 500;
     border: 1px solid #e9e9e9;
     display: -webkit-box !important;
@@ -660,7 +700,7 @@ footer .footer-bottom .footer-dropdown .btn-dropdown {
     background: #fff;
 }
 
-footer .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu {
+.footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu {
     padding: 8px;
     z-index: 995;
     background-color: #fff;
@@ -673,7 +713,7 @@ footer .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu {
     font-size: 14px;
 }
 
-footer .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a {
+.footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a {
     padding: 6px 10px;
     font-weight: 400;
     line-height: 18px;
@@ -685,10 +725,10 @@ footer .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 1.1em;
+    font-size: .9em;
     color: var(--dark-color);
 }
 
-footer .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a.active, footer .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a:hover {
+.footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a.active, .footer-bottom .footer-dropdown .dropdown-wrap .dropdown-menu > a:hover {
     background-color: #f4fafd;
 }
