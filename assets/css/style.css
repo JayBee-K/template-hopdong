@@ -114,6 +114,10 @@ body {
     max-width: 100%;
 }
 
+.header .header-inner .header-inner_nav {
+    margin-right: 30px;
+}
+
 .header .header-inner .header-inner_nav > ul {
     display: flex;
     align-items: center;
@@ -216,6 +220,10 @@ body {
     visibility: visible;
     pointer-events: auto;
     z-index: 2;
+}
+
+.header .header-inner .header-inner_link {
+    margin-left: auto;
 }
 
 .header .header-inner .header-inner_link > a {
